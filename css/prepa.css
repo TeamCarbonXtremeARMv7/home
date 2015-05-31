@@ -6,7 +6,7 @@
 
 body {
 	font-family: oswald, helvetica, arial, sans-serif;
-	background:url(../img/awesome.jpg), #009688;
+	background:url(), #000000;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -93,52 +93,6 @@ header nav ul li:hover {
 }
 header nav ul li a:hover {
 	color: #fff;
-}
-.texto {
-
-	color: #fff;
-	position: relative;
-	z-index: fixed;
-	padding: 200px 0;
-	text-align: center;
-	font-weight: 400;
-}
-.box, .texto h2, .texto p {
-	background: rgba(0,0,0,.8);
-	display: inline-block;
-	padding: 20px;
-}
-.texto h2 {
-	padding: 20px;
-	font-size: 40px;
-	letter-spacing: 2.5px;
-	font-weight: normal;
-}
-.texto p {
-	font-size: 20px;
-	letter-spacing: 2.5px;
-}
-.principal {
-	position: relative;
-	color: #000;
-	border-radius: 5px;
-}
-.principal article {
-	border-radius: 5px;
-	padding: 20px;
-	background: #fff;
-	margin-bottom: 20px;
-}
-.principal article p {
-	margin-bottom: 20px;
-	line-height: 24px;
-	font-family: helvetica, arial, sans-serif;
-}
-.principal article .fecha {
-	color:#939393;
-}
-.principal article .creador {
-	color:#939393;
 }
 footer {
 	width: 100%;
